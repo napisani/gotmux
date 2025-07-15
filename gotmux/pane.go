@@ -358,6 +358,7 @@ func (q *query) paneVars() *query {
 		varPanePipe,
 		varPaneRight,
 		varPaneSearchString,
+		varPaneSessionName,
 		varPaneStartCommand,
 		varPaneStartPath,
 		varPaneSynchronized,
@@ -367,6 +368,7 @@ func (q *query) paneVars() *query {
 		varPaneTty,
 		varPaneUnseenChanges,
 		varPaneWidth,
+		varPaneWindowIndex,
 	)
 }
 
